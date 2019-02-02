@@ -40,7 +40,6 @@ html{
 
 .main{
 	height: 30rem;
-	width: 960px;
 	background-image: url(glasses-bg.png);
 	background-size: cover;
 }
@@ -59,3 +58,80 @@ html{
 	line-height: 1.2;
 	padding: 1.5rem 5rem;
 }
+
+/*Icons and Content*/
+
+.icons{
+	display: flex;
+	width: 960px;
+	justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.icon{
+	width: 5rem;
+	height: 8rem;
+}
+
+.paper{
+	width: 3.5rem;
+	padding-right: 6rem;
+}
+
+.ruler{
+	width: 5rem;
+	padding-right: 6rem;
+}
+
+.truck{
+	transform: rotate(270deg); /*Rotates the truck image*/
+	width: 3rem;
+}
+
+
+/*Info Section*/
+
+.information{
+	display: flex;
+	justify-content: center;
+}
+
+.title{
+	background-color: cadetblue;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	width: 10rem;
+	padding: 0.5rem 1.25rem;
+}
+
+.philosophy, .appointments{
+	width: 35%;
+}
+
+.philosophy p, .appointments p{
+	padding-top: 1rem;
+}
+
+.philosophy{
+	margin-right: 5%;
+}
+
+
+/*Footer*/
+
+footer{
+	display: flex;
+	background-color: azure;
+	padding: 4rem;
+	margin-top: 5rem;
+}
+
+footer img{
+	height: 1.5rem;
+	padding-right: 1rem;
+}
+
+
+
