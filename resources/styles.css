@@ -6,6 +6,10 @@ html{
 
 /*Top Navigation Bar*/
 
+.mobile-nav{
+	display: none;
+}
+
 .top-nav{
 	display: flex;
 	top: 1rem;
@@ -125,6 +129,10 @@ html{
 	padding: 0.5rem 1.25rem;
 }
 
+.paper-container, .ruler-container{
+	margin-right: 0;
+}
+
 .philosophy, .appointments{
 	width: 35%;
 }
@@ -136,7 +144,6 @@ html{
 .philosophy{
 	margin-right: 5%;
 }
-
 
 /*Footer*/
 
@@ -173,6 +180,10 @@ footer img{
 		width: 100%;
 	}
 
+	.icon{
+		justify-content: space-around;
+	}
+
 	.see{
 		top: 5rem;
 		right: 0;
@@ -188,5 +199,70 @@ footer img{
 /*Mobile Screen*/
 
 @media only screen and (max-width: 470px){
+
+	.top-nav{
+		display: none;
+	}
+
+	.main{
+		height: 17rem;
+		background-position: 20%;
+	}
+
+	.mobile-nav{
+		display: flex;
+		background-color: cadetblue;
+		padding: 1rem 1rem;
+		justify-content: space-between;
+	}
+
+	.mobile-nav img{
+		height: 1.5rem;
+	}
+
+	.see{
+		top: 9rem;
+		margin-right: 0;
+		float: none;
+	}
+
+	.see p{
+		text-align: center;
+		padding: 1rem 0;
+	}
+
+	.icons{
+		flex-direction: column;
+		margin-top: 3.77rem;
+		margin-bottom: 3.77rem;
+	}
+
+	.information{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.philosophy, .appointments, .title{
+		width: 100%;
+	}
+
+	.philosophy p, .appointments p{
+	padding-bottom: 4rem;
+	font-size: 0.77rem;
+	width: 100%;
+}
+
+	.ruler-container, .truck-container{
+		margin-top: 1.54rem;
+	}
+
+	footer{
+		justify-content: center;
+		margin-top: 0;
+	}
+
+	.copyright{
+		display: none;
+	}
 
 }
