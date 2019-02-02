@@ -153,4 +153,40 @@ footer img{
 }
 
 
+/*Media Queries*/
 
+
+/*iPad Screen*/
+
+@media only screen and (max-width: 1024px){
+
+	.top-nav{
+		margin: 0;
+		top: 0;
+	}
+
+	.main{
+		height: 22rem;
+	}
+
+	.icons{
+		width: 100%;
+	}
+
+	.see{
+		top: 5rem;
+		right: 0;
+		margin-right: 2rem;
+	}
+
+	.see p{
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
+}
+
+/*Mobile Screen*/
+
+@media only screen and (max-width: 470px){
+
+}
