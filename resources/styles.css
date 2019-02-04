@@ -129,10 +129,6 @@ html{
 	padding: 0.5rem 1.25rem;
 }
 
-.paper-container, .ruler-container{
-	margin-right: 0;
-}
-
 .philosophy, .appointments{
 	width: 35%;
 }
@@ -246,11 +242,18 @@ footer img{
 		width: 100%;
 	}
 
+	.information .title{
+		text-align: center;
+	}
+
 	.philosophy p, .appointments p{
 	padding-bottom: 4rem;
 	font-size: 0.77rem;
-	width: 100%;
 }
+
+	.paper-container, .ruler-container{
+		margin-right: 0;
+	}
 
 	.ruler-container, .truck-container{
 		margin-top: 1.54rem;
